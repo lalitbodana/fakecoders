@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {NgForm} from '@angular/forms';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,7 +10,9 @@ import {NgForm} from '@angular/forms';
 export class AppComponent {
   title = 'fakecoders';
 
-  onSubmit(form: NgForm) {
-    console.log('Your form data : ', form.value);
-  }
+ 
+  // onSubmit(form: NgForm) {
+  //   console.log('Your form data : ', form.value);
+  // }
+
 }
